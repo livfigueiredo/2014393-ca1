@@ -13,7 +13,7 @@ function sendToDatabase(){
   $.post( "pageb.php", { studentname: name, sid: sid })
          .done(function( data ) {
            
-           echo studentname; 
+           echo "hello world; 
             
             alert( "Data Loaded: " + data );
          });
